@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="RGBClustering.DirectXPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RGBClustering"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <SwapChainBackgroundPanel x:ConnectionId='1' x:Name="SwapChainPanel"                                                                   HorizontalAlignment="Stretch" >
+        <SwapChainBackgroundPanel.ColumnDefinitions>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="433*"/>
+        </SwapChainBackgroundPanel.ColumnDefinitions>
+        <TextBlock x:Name="TitleTextBlock" TextAlignment="Center" HorizontalAlignment="Center" FontSize="42" Text="Self Organizing Map - RGB Clustering" Margin="0,25,0,0" VerticalAlignment="Top" UseLayoutRounding="True" TextWrapping="Wrap" Grid.ColumnSpan="2" ></TextBlock>
+        <TextBlock x:Name="LearningRateTextBlock" HorizontalAlignment="Left" FontSize="24" Height="30" Text="Learning Rate:" Margin="37,100,0,638" Foreground="White"/>
+        <TextBlock x:Name="LearningRadiusTextBlock" HorizontalAlignment="Left" FontSize="24" Height="30" Text="Learning Radius:" Margin="37,135,0,603" Foreground="#FFF5F2F2"/>
+        <TextBlock x:Name="IterationTimesTextBlock" HorizontalAlignment="Left" FontSize="24" Height="30" Text="Iteration Times: " Margin="37,170,0,568" Foreground="#FFFDFCFC"/>
+        <TextBlock x:Name="ErrorTextBlock" HorizontalAlignment="Left" FontSize="24" Height="30" Text="Error: " Margin="37,205,0,533" Foreground="#FFF9F7F7" RenderTransformOrigin="0.948,0.433" Width="172"/>
+
+        <Button x:ConnectionId='2' x:Name="StartButton" HorizontalAlignment="Left" FontSize="24" Background="#FF3F809E" Height="90" Margin="37,485,0,193" Width="100"                           Content="Start"  Foreground="#FFAEABBB" RenderTransformOrigin="0,0"  >
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="0" TranslateY="0"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:ConnectionId='3' x:Name="StopButton" HorizontalAlignment="Left" FontSize="24" Background="#FFFF002E" Height="90" Margin="155,485,0,193" Width="100"                          Foreground="#FFAE0B0B" Content="Stop" RenderTransformOrigin="0,0" >
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="0" TranslateY="0"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:ConnectionId='4' x:Name="ResetButton" HorizontalAlignment="Left" FontSize="24" Background="White" Height="90" Margin="37,600,0,78" Width="100"                           Foreground="#FFAE0B0B" Content="Reset" RenderTransformOrigin="0,0">
+            <Button.RenderTransform>
+                <CompositeTransform TranslateX="0" TranslateY="0"/>
+            </Button.RenderTransform>
+        </Button>
+
+        <TextBlock HorizontalAlignment="Left" FontSize="24" Height="30" Text="Initial Learning Rate" Margin="37,305,0,433" Foreground="#FFA42A2A" Width="228"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="24" Height="30" Text="Initial Learning Radius" Margin="37,385,0,353" Foreground="#FFA42A2A" Width="260"/>
+
+
+        <TextBox x:ConnectionId='5' x:Name="InitialLearningRadiusTextBox" HorizontalAlignment="Left" BorderBrush="AliceBlue"
+                 FontSize="20" Margin="37,420,0,308" Width="50" Height="40" TextWrapping="NoWrap" InputScope="Number"
+                                                                        VerticalAlignment="Center" HorizontalContentAlignment="Left"/>
+        
+        <TextBox x:ConnectionId='6' x:Name="InitialLearningRateTextBox" HorizontalAlignment="Left" BorderBrush="AliceBlue"
+                 FontSize="20" Margin="37,340,0,388" Width="50" Height="40" TextWrapping="NoWrap" InputScope="Number"
+                                                                      VerticalAlignment="Center" HorizontalContentAlignment="Left"/>
+    </SwapChainBackgroundPanel>
+
+</Page>
+

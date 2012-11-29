@@ -1,0 +1,48 @@
+﻿Build started 9/21/2012 2:15:19 PM.
+     1>Project "C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\RGBClustering\RGBClustering.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\RGBClustering\\" /IDebug\ /I"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\RGBClustering\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt DirectXPage.xaml.cpp
+         DirectXPage.xaml.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.exe" /INCREMENTAL /NOLOGO d2d1.lib d3d11.lib dxgi.lib ole32.lib windowscodecs.lib dwrite.lib dxguid.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\ActivationFunction.obj
+         Debug\DistanceLayer.obj
+         Debug\DistanceNetwork.obj
+         Debug\Layer.obj
+         Debug\Network.obj
+         Debug\RGBRenderer.obj
+         Debug\DirectXBase.obj
+         Debug\App.xaml.obj
+         Debug\DirectXPage.xaml.obj
+         Debug\pch.obj
+         Debug\SOM.obj
+         Debug\SOMLearning.obj
+         Debug\SOMNetwork.obj
+         Debug\UnsupervisedLearning.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\RGBClustering\\" /IDebug\ /I"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\RGBClustering\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4453 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.exe" /INCREMENTAL /NOLOGO d2d1.lib d3d11.lib dxgi.lib ole32.lib windowscodecs.lib dwrite.lib dxguid.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\ActivationFunction.obj
+         Debug\DistanceLayer.obj
+         Debug\DistanceNetwork.obj
+         Debug\Layer.obj
+         Debug\Network.obj
+         Debug\RGBRenderer.obj
+         Debug\DirectXBase.obj
+         Debug\App.xaml.obj
+         Debug\DirectXPage.xaml.obj
+         Debug\pch.obj
+         Debug\SOM.obj
+         Debug\SOMLearning.obj
+         Debug\SOMNetwork.obj
+         Debug\UnsupervisedLearning.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.lib and object C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.exp
+         RGBClustering.vcxproj -> C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\Debug\RGBClustering\RGBClustering.exe
+     1>Done Building Project "C:\Users\t-trule\Dropbox\Workspace\VisualStudio\RGBClustering\RGBClustering\RGBClustering.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.60
